@@ -4,6 +4,6 @@
 
 $ npm install
 
-### Para rodar os testes:
+### Acessar a pasta do projeto no terminal, e para rodar os testes:
 
 $ npm run test
