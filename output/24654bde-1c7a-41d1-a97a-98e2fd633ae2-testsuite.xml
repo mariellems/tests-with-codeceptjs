@@ -1,0 +1,190 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632256937001' stop='1632256937022'>
+    <name>Realizar compra</name>
+    <title>Realizar compra</title>
+    <test-cases>
+        <test-case start='1632256937002' status='passed' stop='1632256937021'>
+            <name>Realizar compra de itens na loja @RealizarCompra</name>
+            <title>Realizar compra de itens na loja @RealizarCompra</title>
+            <labels>
+                <label name='tag' value='@RealizarCompra'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256937008' status='passed' stop='1632256937010'>
+                    <name>Given digito um usuário válido </name>
+                    <title>Given digito um usuário válido </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937008' status='passed' stop='1632256937009'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937010' status='passed' stop='1632256937010'>
+                            <name>I fill field "#user-name", "standard_user"</name>
+                            <title>I fill field "#user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937010' status='passed' stop='1632256937011'>
+                    <name>And digito uma senha válida </name>
+                    <title>And digito uma senha válida </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937010' status='passed' stop='1632256937011'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937011' status='passed' stop='1632256937012'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937011' status='passed' stop='1632256937012'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937012' status='passed' stop='1632256937016'>
+                    <name>Then é possível logar no site </name>
+                    <title>Then é possível logar no site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937012' status='passed' stop='1632256937012'>
+                            <name>I see element ".app_logo"</name>
+                            <title>I see element ".app_logo"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937016' status='passed' stop='1632256937017'>
+                    <name>Given adiciono alguns itens no carrinho </name>
+                    <title>Given adiciono alguns itens no carrinho </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937016' status='passed' stop='1632256937016'>
+                            <name>I click "#add-to-cart-sauce-labs-backpack"</name>
+                            <title>I click "#add-to-cart-sauce-labs-backpack"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937016' status='passed' stop='1632256937017'>
+                            <name>I click "#add-to-cart-sauce-labs-bike-light"</name>
+                            <title>I click "#add-to-cart-sauce-labs-bike-light"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937017' status='passed' stop='1632256937017'>
+                    <name>And clico no carrinho para verificar os itens </name>
+                    <title>And clico no carrinho para verificar os itens </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937017' status='passed' stop='1632256937017'>
+                            <name>I click "#shopping_cart_container"</name>
+                            <title>I click "#shopping_cart_container"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937017' status='passed' stop='1632256937018'>
+                    <name>And clico para realizar o checkout </name>
+                    <title>And clico para realizar o checkout </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937017' status='passed' stop='1632256937018'>
+                            <name>I click "#checkout"</name>
+                            <title>I click "#checkout"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937018' status='passed' stop='1632256937019'>
+                    <name>And preencho os dados com minhas informações </name>
+                    <title>And preencho os dados com minhas informações </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937018' status='passed' stop='1632256937018'>
+                            <name>I fill field "#first-name", "Marielle"</name>
+                            <title>I fill field "#first-name", "Marielle"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937018' status='passed' stop='1632256937019'>
+                            <name>I fill field "#last-name", "Meira"</name>
+                            <title>I fill field "#last-name", "Meira"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937019' status='passed' stop='1632256937019'>
+                            <name>I fill field "#postal-code", "88804400"</name>
+                            <title>I fill field "#postal-code", "88804400"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937019' status='passed' stop='1632256937019'>
+                            <name>I click "#continue"</name>
+                            <title>I click "#continue"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937019' status='passed' stop='1632256937020'>
+                    <name>And verifico o valor final e finalizo a compra </name>
+                    <title>And verifico o valor final e finalizo a compra </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937019' status='passed' stop='1632256937020'>
+                            <name>I see "Total: $43.18"</name>
+                            <title>I see "Total: $43.18"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937020' status='passed' stop='1632256937020'>
+                            <name>I click "#finish"</name>
+                            <title>I click "#finish"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937020' status='passed' stop='1632256937021'>
+                    <name>Then devo verificar a mensagem de que meu pedido foi realizado com sucesso </name>
+                    <title>Then devo verificar a mensagem de que meu pedido foi realizado com sucesso </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937020' status='passed' stop='1632256937021'>
+                            <name>I see "THANK YOU FOR YOUR ORDER"</name>
+                            <title>I see "THANK YOU FOR YOUR ORDER"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937021' status='passed' stop='1632256937021'>
+                            <name>I see element ".pony_express"</name>
+                            <title>I see element ".pony_express"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

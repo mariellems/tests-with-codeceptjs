@@ -1,0 +1,208 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632256937030' stop='1632256937045'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1632256937031' status='passed' stop='1632256937035'>
+            <name>Login com usuario e senha válidos @LoginValido</name>
+            <title>Login com usuario e senha válidos @LoginValido</title>
+            <labels>
+                <label name='tag' value='@LoginValido'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256937032' status='passed' stop='1632256937034'>
+                    <name>Given digito um usuário válido </name>
+                    <title>Given digito um usuário válido </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937032' status='passed' stop='1632256937033'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937033' status='passed' stop='1632256937034'>
+                            <name>I fill field "#user-name", "standard_user"</name>
+                            <title>I fill field "#user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937034' status='passed' stop='1632256937034'>
+                    <name>And digito uma senha válida </name>
+                    <title>And digito uma senha válida </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937034' status='passed' stop='1632256937034'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937034' status='passed' stop='1632256937035'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937034' status='passed' stop='1632256937035'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937035' status='passed' stop='1632256937035'>
+                    <name>Then é possível logar no site </name>
+                    <title>Then é possível logar no site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937035' status='passed' stop='1632256937035'>
+                            <name>I see element ".app_logo"</name>
+                            <title>I see element ".app_logo"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632256937036' status='passed' stop='1632256937039'>
+            <name>Login com usuario inválido @LoginInvalido</name>
+            <title>Login com usuario inválido @LoginInvalido</title>
+            <labels>
+                <label name='tag' value='@LoginInvalido'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256937037' status='passed' stop='1632256937038'>
+                    <name>Given digito um usuário inválido </name>
+                    <title>Given digito um usuário inválido </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937037' status='passed' stop='1632256937038'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1632256937038' status='passed' stop='1632256937038'>
+                            <name>I fill field "#user-name", "standard"</name>
+                            <title>I fill field "#user-name", "standard"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937038' status='passed' stop='1632256937038'>
+                    <name>And digito uma senha </name>
+                    <title>And digito uma senha </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937038' status='passed' stop='1632256937038'>
+                            <name>I fill field "#password", "secret"</name>
+                            <title>I fill field "#password", "secret"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937038' status='passed' stop='1632256937039'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937038' status='passed' stop='1632256937039'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937039' status='passed' stop='1632256937039'>
+                    <name>Then deve exibir mensagem com impedimento ao tentar realizar o login </name>
+                    <title>Then deve exibir mensagem com impedimento ao tentar realizar o login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937039' status='passed' stop='1632256937039'>
+                            <name>I see "Epic sadface: Username and password do not match any user in this service"</name>
+                            <title>I see "Epic sadface: Username and password do not match any user in this service"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632256937040' status='passed' stop='1632256937044'>
+            <name>Não informar um usuário @UsuarioNaoInformado</name>
+            <title>Não informar um usuário @UsuarioNaoInformado</title>
+            <labels>
+                <label name='tag' value='@UsuarioNaoInformado'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256937041' status='passed' stop='1632256937042'>
+                    <name>Given não digito nenhum usuário </name>
+                    <title>Given não digito nenhum usuário </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937041' status='passed' stop='1632256937042'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937042' status='passed' stop='1632256937043'>
+                    <name>And digito uma senha válida </name>
+                    <title>And digito uma senha válida </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937042' status='passed' stop='1632256937043'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937043' status='passed' stop='1632256937044'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937043' status='passed' stop='1632256937044'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256937044' status='passed' stop='1632256937044'>
+                    <name>Then deve exibir mensagem informando que o usuário é obrigatório </name>
+                    <title>Then deve exibir mensagem informando que o usuário é obrigatório </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256937044' status='passed' stop='1632256937044'>
+                            <name>I see "Epic sadface: Username is required"</name>
+                            <title>I see "Epic sadface: Username is required"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

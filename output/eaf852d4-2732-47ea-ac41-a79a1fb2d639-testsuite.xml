@@ -1,0 +1,236 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632256499584' stop='1632256516143'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1632256499584' status='passed' stop='1632256504377'>
+            <name>Login com usuario e senha válidos @LoginValido</name>
+            <title>Login com usuario e senha válidos @LoginValido</title>
+            <labels>
+                <label name='tag' value='@LoginValido'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256501295' status='passed' stop='1632256502720'>
+                    <name>Given digito um usuário válido </name>
+                    <title>Given digito um usuário válido </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256501295' status='passed' stop='1632256501624'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='8a3bbbbb-9c1c-47ff-a5c7-b2f95ebac954-attachment.png' type='image/png' size='53815'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256501938' status='passed' stop='1632256502411'>
+                            <name>I fill field "#user-name", "standard_user"</name>
+                            <title>I fill field "#user-name", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#user-name", "standard_user"' source='555000e5-2567-4d6b-ae5f-7f66415d03b0-attachment.png' type='image/png' size='54245'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256502720' status='passed' stop='1632256503546'>
+                    <name>And digito uma senha válida </name>
+                    <title>And digito uma senha válida </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256502720' status='passed' stop='1632256503233'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#password", "secret_sauce"' source='aef43df6-72ba-4829-8275-29bd648ae07a-attachment.png' type='image/png' size='53218'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256503546' status='passed' stop='1632256504143'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256503546' status='passed' stop='1632256504143'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#login-button"' source='f6e482c7-6de3-4ed1-8ca4-a40d7e803f38-attachment.png' type='image/png' size='411986'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256504143' status='passed' stop='1632256504377'>
+                    <name>Then é possível logar no site </name>
+                    <title>Then é possível logar no site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256504143' status='passed' stop='1632256504377'>
+                            <name>I see element ".app_logo"</name>
+                            <title>I see element ".app_logo"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see element ".app_logo"' source='0d17a3b9-1201-45dd-a0d9-e57c1ee41dd5-attachment.png' type='image/png' size='411986'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632256504420' status='passed' stop='1632256510610'>
+            <name>Login com usuario inválido @LoginInvalido</name>
+            <title>Login com usuario inválido @LoginInvalido</title>
+            <labels>
+                <label name='tag' value='@LoginInvalido'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256507699' status='passed' stop='1632256509158'>
+                    <name>Given digito um usuário inválido </name>
+                    <title>Given digito um usuário inválido </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256507699' status='passed' stop='1632256508041'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='a04ece0f-2517-4d34-b891-c3023c1a725f-attachment.png' type='image/png' size='53815'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256508356' status='passed' stop='1632256508847'>
+                            <name>I fill field "#user-name", "standard"</name>
+                            <title>I fill field "#user-name", "standard"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#user-name", "standard"' source='2d3b9925-4669-4a2a-9a92-4147748020a5-attachment.png' type='image/png' size='53753'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256509158' status='passed' stop='1632256509975'>
+                    <name>And digito uma senha </name>
+                    <title>And digito uma senha </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256509158' status='passed' stop='1632256509661'>
+                            <name>I fill field "#password", "secret"</name>
+                            <title>I fill field "#password", "secret"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#password", "secret"' source='f6c32a49-1f0f-446f-bf35-8f1681410600-attachment.png' type='image/png' size='52594'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256509975' status='passed' stop='1632256510457'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256509975' status='passed' stop='1632256510457'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#login-button"' source='c6a5dcba-fe5f-4d68-841a-1648f733e67d-attachment.png' type='image/png' size='57918'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256510457' status='passed' stop='1632256510610'>
+                    <name>Then deve exibir mensagem com impedimento ao tentar realizar o login </name>
+                    <title>Then deve exibir mensagem com impedimento ao tentar realizar o login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256510457' status='passed' stop='1632256510610'>
+                            <name>I see "Epic sadface: Username and password do not match any user in this service"</name>
+                            <title>I see "Epic sadface: Username and password do not match any user in this service"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Epic sadface: Username and password do not match any user in this service"' source='d2d0ce02-6539-4ff4-b2dc-9ba055d58235-attachment.png' type='image/png' size='57918'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632256510665' status='passed' stop='1632256516104'>
+            <name>Não informar um usuário @UsuarioNaoInformado</name>
+            <title>Não informar um usuário @UsuarioNaoInformado</title>
+            <labels>
+                <label name='tag' value='@UsuarioNaoInformado'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256513981' status='passed' stop='1632256514634'>
+                    <name>Given não digito nenhum usuário </name>
+                    <title>Given não digito nenhum usuário </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256513981' status='passed' stop='1632256514321'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='19efb0da-db1a-45a2-9855-7fd5d118c06a-attachment.png' type='image/png' size='53815'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256514634' status='passed' stop='1632256515457'>
+                    <name>And digito uma senha válida </name>
+                    <title>And digito uma senha válida </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256514634' status='passed' stop='1632256515139'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#password", "secret_sauce"' source='ca56a90c-9279-4890-86b5-63fea4b82d01-attachment.png' type='image/png' size='52731'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256515457' status='passed' stop='1632256515955'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256515457' status='passed' stop='1632256515955'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#login-button"' source='1ca6e27a-1391-4871-8dab-b37239a49021-attachment.png' type='image/png' size='55943'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256515955' status='passed' stop='1632256516104'>
+                    <name>Then deve exibir mensagem informando que o usuário é obrigatório </name>
+                    <title>Then deve exibir mensagem informando que o usuário é obrigatório </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256515955' status='passed' stop='1632256516104'>
+                            <name>I see "Epic sadface: Username is required"</name>
+                            <title>I see "Epic sadface: Username is required"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Epic sadface: Username is required"' source='48670af6-bb0f-41b0-bd66-cbaa8259a744-attachment.png' type='image/png' size='55943'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

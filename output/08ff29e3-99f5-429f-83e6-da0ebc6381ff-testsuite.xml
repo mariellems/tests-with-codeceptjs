@@ -1,0 +1,224 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632256485532' stop='1632256499574'>
+    <name>Realizar compra</name>
+    <title>Realizar compra</title>
+    <test-cases>
+        <test-case start='1632256486402' status='passed' stop='1632256499520'>
+            <name>Realizar compra de itens na loja @RealizarCompra</name>
+            <title>Realizar compra de itens na loja @RealizarCompra</title>
+            <labels>
+                <label name='tag' value='@RealizarCompra'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1632256487965' status='passed' stop='1632256489802'>
+                    <name>Given digito um usuário válido </name>
+                    <title>Given digito um usuário válido </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256487966' status='passed' stop='1632256488676'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='677fe90d-0ff1-4c5a-8df9-c657d6c2bac2-attachment.png' type='image/png' size='53815'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256488977' status='passed' stop='1632256489488'>
+                            <name>I fill field "#user-name", "standard_user"</name>
+                            <title>I fill field "#user-name", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#user-name", "standard_user"' source='286b8849-ef4e-46bb-886d-22951d11b065-attachment.png' type='image/png' size='54245'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256489802' status='passed' stop='1632256490656'>
+                    <name>And digito uma senha válida </name>
+                    <title>And digito uma senha válida </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256489802' status='passed' stop='1632256490341'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#password", "secret_sauce"' source='e2abe33e-4e2f-4276-8dcb-615a373dd06d-attachment.png' type='image/png' size='53218'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256490656' status='passed' stop='1632256491210'>
+                    <name>And clico no botão Login </name>
+                    <title>And clico no botão Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256490656' status='passed' stop='1632256491210'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#login-button"' source='012c60de-b258-4985-88e6-8a30d13e897d-attachment.png' type='image/png' size='370035'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256491210' status='passed' stop='1632256491722'>
+                    <name>Then é possível logar no site </name>
+                    <title>Then é possível logar no site </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256491210' status='passed' stop='1632256491411'>
+                            <name>I see element ".app_logo"</name>
+                            <title>I see element ".app_logo"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see element ".app_logo"' source='fe5fbf7e-4f8f-4ae4-baff-07fb5b503266-attachment.png' type='image/png' size='370035'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256491722' status='passed' stop='1632256493498'>
+                    <name>Given adiciono alguns itens no carrinho </name>
+                    <title>Given adiciono alguns itens no carrinho </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256491722' status='passed' stop='1632256492293'>
+                            <name>I click "#add-to-cart-sauce-labs-backpack"</name>
+                            <title>I click "#add-to-cart-sauce-labs-backpack"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#add-to-cart-sauce-labs-backpack"' source='669029bc-07ca-4ddb-9cea-ed42e7c59ee0-attachment.png' type='image/png' size='478266'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256492599' status='passed' stop='1632256493187'>
+                            <name>I click "#add-to-cart-sauce-labs-bike-light"</name>
+                            <title>I click "#add-to-cart-sauce-labs-bike-light"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#add-to-cart-sauce-labs-bike-light"' source='afa00a9b-9682-40d9-a4cc-897cf1d96d99-attachment.png' type='image/png' size='550654'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256493498' status='passed' stop='1632256494317'>
+                    <name>And clico no carrinho para verificar os itens </name>
+                    <title>And clico no carrinho para verificar os itens </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256493498' status='passed' stop='1632256494011'>
+                            <name>I click "#shopping_cart_container"</name>
+                            <title>I click "#shopping_cart_container"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#shopping_cart_container"' source='be9d4ee1-de7c-4f6e-a6a3-fc3f943edc9f-attachment.png' type='image/png' size='83245'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256494317' status='passed' stop='1632256495139'>
+                    <name>And clico para realizar o checkout </name>
+                    <title>And clico para realizar o checkout </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256494318' status='passed' stop='1632256494826'>
+                            <name>I click "#checkout"</name>
+                            <title>I click "#checkout"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#checkout"' source='b3ba6ac0-d293-4677-9627-7f9dacf2d05e-attachment.png' type='image/png' size='50490'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256495139' status='passed' stop='1632256498188'>
+                    <name>And preencho os dados com minhas informações </name>
+                    <title>And preencho os dados com minhas informações </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256495139' status='passed' stop='1632256495674'>
+                            <name>I fill field "#first-name", "Marielle"</name>
+                            <title>I fill field "#first-name", "Marielle"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#first-name", "Marielle"' source='3865efe0-d534-4c99-8483-fe65c9060d84-attachment.png' type='image/png' size='50300'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256495989' status='passed' stop='1632256496523'>
+                            <name>I fill field "#last-name", "Meira"</name>
+                            <title>I fill field "#last-name", "Meira"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#last-name", "Meira"' source='5e0030c6-2ea2-49ca-bad9-678b2655d737-attachment.png' type='image/png' size='49951'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256496824' status='passed' stop='1632256497365'>
+                            <name>I fill field "#postal-code", "88804400"</name>
+                            <title>I fill field "#postal-code", "88804400"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#postal-code", "88804400"' source='b864ecdd-7659-472a-92de-a02d5134dad2-attachment.png' type='image/png' size='48435'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256497678' status='passed' stop='1632256498188'>
+                            <name>I click "#continue"</name>
+                            <title>I click "#continue"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#continue"' source='e6bf75c3-48f0-48d5-b5df-14e996ac6425-attachment.png' type='image/png' size='57962'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256498188' status='passed' stop='1632256499168'>
+                    <name>And verifico o valor final e finalizo a compra </name>
+                    <title>And verifico o valor final e finalizo a compra </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256498188' status='passed' stop='1632256498348'>
+                            <name>I see "Total: $43.18"</name>
+                            <title>I see "Total: $43.18"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Total: $43.18"' source='2c5317ac-b0b8-4983-b65b-61284b4a7d91-attachment.png' type='image/png' size='57962'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256498654' status='passed' stop='1632256499168'>
+                            <name>I click "#finish"</name>
+                            <title>I click "#finish"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#finish"' source='d4b6de0a-e018-4c3a-8c0f-63a89c31cf73-attachment.png' type='image/png' size='93838'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632256499168' status='passed' stop='1632256499520'>
+                    <name>Then devo verificar a mensagem de que meu pedido foi realizado com sucesso </name>
+                    <title>Then devo verificar a mensagem de que meu pedido foi realizado com sucesso </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1632256499168' status='passed' stop='1632256499334'>
+                            <name>I see "THANK YOU FOR YOUR ORDER"</name>
+                            <title>I see "THANK YOU FOR YOUR ORDER"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "THANK YOU FOR YOUR ORDER"' source='58ea7d28-6624-4cc7-9492-dfcd7ff65310-attachment.png' type='image/png' size='93838'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632256499334' status='passed' stop='1632256499519'>
+                            <name>I see element ".pony_express"</name>
+                            <title>I see element ".pony_express"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see element ".pony_express"' source='fc9f4fff-9020-4416-a988-bf9a97f87488-attachment.png' type='image/png' size='93838'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
