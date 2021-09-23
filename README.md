@@ -1,5 +1,13 @@
 ## Projeto de estudo do framework CodeceptJS
 
+Pré requisitos:
+
+- Git
+- NodeJS
+- Chrome e Chromedriver na mesma versão
+- VS Code
+
+
 ### Após clonar ou baixar o projeto, digitar no terminal:
 
 $ npm install
